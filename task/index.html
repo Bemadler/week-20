@@ -4,12 +4,33 @@
         <meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<title>JS 2.0. Практикум.</title>
+		<title>JS week-20 task 1.</title>
 		<link rel="stylesheet" href="./assets/style/style.css" />
 		<link rel="stylesheet" href="./assets/style/normalize.css" />
     </head>
 	<body>
-
+		<div class="container">
+            <div class="logo-box">
+                <img class="logo" src="./assets/img/-02_small.png"/>
+            </div>
+            <div class="todo-app">
+                <h2 class="headline">Кого или что будем искать?</h2>
+                <div class="row">
+					<form class="input-options">
+						<select id="starWarsBox">
+							<option value="people">Люди</option> 
+							<option value="planets">Планеты</option>
+							<option value="movies">Фильмы</option>
+						</select>
+					</form>
+                    <input type="text" id="input-box" placeholder="Введите номер">
+                    <button onclick="search()">Вперёд!</button>
+                </div>
+                <div class="answerBox">
+					<h3 class="answer"></h3>
+				</div>
+            </div>  
+        </div>
 		<script src="./assets/style/script.js"></script>
 	</body>
 </html>

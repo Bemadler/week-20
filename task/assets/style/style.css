@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Caveat';
+    src: url(/assets/fonts/Caveat/Caveat-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'Amatic_SC';
+    src: url(/assets/fonts/Amatic_SC/AmaticSC-Bold.ttf);
+}
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 150vh;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.logo-box{
+    margin: 100px auto 2px;
+}
+.todo-app{
+    width: 100%;
+    max-width: 740px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.todo-app h2{
+    color: #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.todo-app h2 img{
+    width: 30px;
+    margin-left: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+#starWarsBox{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    margin-right: 20px;
+}
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+#input-box{
+    width: 50%;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #ce375a;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-family: 'Amatic_SC';
+}
+button:hover{
+    color:#4e085f;
+    border-color:#4e085f 5px;
+}
+
+.row2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: #edeef0;
+    border-radius: 30px;
+    margin-top: 25px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
